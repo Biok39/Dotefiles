@@ -1,0 +1,14 @@
+#!/bin/zsh
+
+mkcd() {
+ mkdir "$1" && cd "$1"	
+}
+
+ton() {
+	touch "$1" && nvim "$1"	
+}
+
+mygrep() {
+	grep -i -r --color=always "$1" "$2"
+}
+
