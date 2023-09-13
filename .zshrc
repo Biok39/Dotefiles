@@ -4,7 +4,7 @@ if [ $USER = "user" ]; then
 	export PS1='%m:%~%# '
 fi
 
-source ~/dotfile/.aliases
-source ~/dotfile/.fonctions
+source ~/Dotefiles/.aliases
+source ~/Dotefiles/.fonctions
 
 export PATH="~/bin:$PATH"
