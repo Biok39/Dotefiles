@@ -2,4 +2,6 @@ alias la="ls -a"
 alias ll="ls -l"
 alias c="clear"
 alias grepc="grep -color=always"
-
+alias vim="nvim"
+alias gcc="gcc -o"
+alias gcch="gcc -h -o"
